@@ -19,8 +19,6 @@ const App = () => {
 
   const [aramaKriteri, setAramaKriteri] = useState("");
 
-  const aramaHandler=
-
   const gonderiyiBegen = (gonderiID) => {
     const yeniGonderiler = gonderiler.map((gonderi) => {
       if (gonderi.id === gonderiID) {
